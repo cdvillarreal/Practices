@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+  margin: 6rem auto;
+  width: 75rem;
+  height: 15rem;
+}
+
+div.contenedor {
+  width: 12.5rem;
+  height: 15rem;
+  float: left;
+  transition: all 0.3s ease;
+}
+
+div.uno {
+  background: rgb(208, 101, 3);
+}
+
+div.dos {
+  background: rgb(233, 147, 26);
+}
+
+div.tres {
+  background: rgb(22, 145, 190);
+}
+
+div.cuatro {
+  background: rgb(22, 107, 162);
+}
+
+div.cinco {
+  background: rgb(27, 54, 71);
+}
+
+div.seis {
+  background: rgb(21, 40, 54);
+}
+
+div img.icono {
+  width: 2.5rem;
+  display: block;
+  margin: 3rem auto;
+  padding: 1.25rem;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0px 0px 0px 30px rgba(255, 255, 255, 0);
+  transition: all 0.3s ease;
+}
+
+div p.etiquetas {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #fff;
+  padding-top: 10px;
+  opacity: 0.4;
+  transition: all 0.3s ease;
+}
+
+div.contenedor:hover {
+  height: 16rem;
+  cursor: pointer;
+}
+
+div.contenedor:hover p.etiquetas {
+  padding-top: 2rem;
+  opacity: 1;
+}
+
+div.contenedor:hover img.icono {
+  box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.6);
+}
